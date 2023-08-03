@@ -9,7 +9,7 @@ const Navigation = () => (
       <Navbar.Brand className="text-white me-4">Exchange</Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Text className="centered-content">
-        Base Currency
+        By PillarName
       </Navbar.Text>
       <Navbar.Collapse className="justify-content-end">
         <Nav>
