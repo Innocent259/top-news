@@ -28,12 +28,7 @@ const newsSlice = createSlice({
             const data = action.payload;
             state.newsData = action.payload;
             console.log(data)
-            const news = data.response.results.map((item) => ({
-              id: item.id,
-              type: item.type,
-              sectionName: item.sectionName,
-            }));
-            state.newsData = news;
+            state.newsData = data.response.results;
           })
           .addCase(fetchNews.rejected, (state) => {
             state.isLoading = false;
