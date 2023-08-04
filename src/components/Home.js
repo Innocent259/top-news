@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { fetchNews } from '../redux/news/newsSlice';
-import { useSelector, useDispatch } from 'react-redux';
-import FullDetails from './FullDetails';
-import { Image } from 'react-bootstrap';
-import NewsLogo from '../assets/news logo.png'
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { BsFillForwardFill } from "react-icons/bs";
+import { fetchNews } from "../redux/news/newsSlice";
+import { useSelector, useDispatch } from "react-redux";
+import newsImage from "../assets/world2-39.png";
+import { Image } from "react-bootstrap";
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -12,41 +13,32 @@ const Home = () => {
   useEffect(() => {
     dispatch(fetchNews());
   }, [dispatch]);
-  
-  const pillarCounts = {};
-  newsData.forEach((item) => {
-    if (pillarCounts[item.pillarName]) {
-      pillarCounts[item.pillarName]++;
-    } else {
-      pillarCounts[item.pillarName] = 1;
-    }
-  });
-
-  const [selectedPillar, setSelectedPillar] = useState(null);
-
-  const handlePillarClick = (pillarName) => {
-    setSelectedPillar(pillarName === selectedPillar ? null : pillarName);
-  };
 
   return (
-    <div>
+    <div className="py-3">
       {isLoading ? (
         <p>Loading...</p>
       ) : (
         <div>
-          <Image src={NewsLogo} alt="news Logo" className="w-100 h-100" />
-          <ul>
-            {Object.keys(pillarCounts).map((pillarName) => (
-              <li key={pillarName}>
-                <p
-                  style={{ cursor: 'pointer' }}
-                  onClick={() => handlePillarClick(pillarName)}
-                >
-                  {`${pillarName}: ${pillarCounts[pillarName]}`}
-                </p>
-                {selectedPillar === pillarName && (
-                  <FullDetails newsData={newsData} pillarName={pillarName} />
-                )}
+          <div className="sub-header w-100">By web title</div>
+          <ul className="home-lists">
+            {newsData.map((item) => (
+              <li key={item.id} className="card-">
+                <div className="heading-part">
+                  <Image
+                    src={newsImage}
+                    alt="news detail logo"
+                    className="img-fluid w-50"
+                  />
+                  <Link state={item} to={`/${item.sectionName}`}>
+                    <BsFillForwardFill className="fs-2 text-white"/>
+                  </Link>
+                </div>
+                <h2 className="text-start">
+                  {item.webTitle.length > 25
+                    ? `${item.webTitle.substring(0, 25)}...`
+                    : item.webTitle}
+                </h2>
               </li>
             ))}
           </ul>
