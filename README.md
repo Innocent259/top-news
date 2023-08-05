@@ -165,7 +165,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
->Original design idea by Nelson Sakwa on Behance.
+>Credit goes to Nelson Sakwa on Behance for providing the original design idea.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
