@@ -38,7 +38,8 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1rem;
+  padding: 0;
 }
 
 .card-:hover {
@@ -63,4 +64,8 @@ li {
 .item-2,
 .item-4 {
   background-color: rgba(255, 87, 51, 0.7);
+}
+
+img {
+  width: 5rem;
 }
