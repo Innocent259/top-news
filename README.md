@@ -140,6 +140,7 @@ To run tests, run the following command: -->
 
 - [ ] **Improve project styling**
 - [ ] **Responsive design: The project will be optimized to display properly on different screen sizes, including desktops, tablets, and mobile devices.**
+- [ ] **Add more testing cases**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
