@@ -16,7 +16,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
-  - [🚀 Presentation ](#-presentation-)
+  - [Presentation ](#-presentation-)
   - [💻 Getting Started ](#-getting-started-)
     - [Install](#install)
     - [Run tests](#run-tests)
@@ -58,13 +58,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href="https://quiet-buttercream-e947d3.netlify.app/"> See Project 🚀</a>
+<a href="https://quiet-buttercream-e947d3.netlify.app/">Live demo</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Presentation <a name="presentation"></a>
+## Presentation <a name="presentation"></a>
 
-<!-- <a href="https://quiet-buttercream-e947d3.netlify.app/"> See Project 🚀</a> -->
+<a href="https://www.loom.com/share/aa7afc18fefe40a888e5a81addd670ca?sid=b43b4e0a-1f55-4e04-a40c-0fa2dd290338">Presentation</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
