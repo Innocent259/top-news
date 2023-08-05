@@ -165,7 +165,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank Microverse for allowing me to work on this project It's a good experience, I can't express how I feel after learning and implementing what I learned in this project.
+>Original design idea by Nelson Sakwa on Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
