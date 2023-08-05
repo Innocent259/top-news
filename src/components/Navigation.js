@@ -1,5 +1,4 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { Link } from 'react-router-dom';
 import { BsGearWide, BsFillArrowLeftCircleFill } from 'react-icons/bs';
 import { MdKeyboardVoice } from 'react-icons/md';
