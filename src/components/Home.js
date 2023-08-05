@@ -28,13 +28,13 @@ const Home = () => {
                   <Image
                     src={newsImage}
                     alt="news detail logo"
-                    className="img-fluid w-50"
+                    className="img-fluid"
                   />
                   <Link state={item} to={`/${item.sectionName}`}>
                     <BsFillForwardFill className="fs-2 text-white" />
                   </Link>
                 </div>
-                <h2 className="text-start">
+                <h2 className="text-start title fs-3">
                   {item.webTitle.length > 25
                     ? `${item.webTitle.substring(0, 25)}...`
                     : item.webTitle}
