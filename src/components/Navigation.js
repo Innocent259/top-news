@@ -6,7 +6,7 @@ import { MdKeyboardVoice } from 'react-icons/md';
 const Navigation = () => (
   <Navbar className="bg-body-tertiary py-0">
     <Container fluid className="fw-bold gap-1" style={{ backgroundColor: '#FF5733', color: '#FFF' }}>
-      <Link to={"/"}><BsFillArrowLeftCircleFill className="fs-2 text-white" /></Link>
+      <Link to="/"><BsFillArrowLeftCircleFill className="fs-2 text-white" /></Link>
       <Navbar.Brand className="text-white me-4">Top News</Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">

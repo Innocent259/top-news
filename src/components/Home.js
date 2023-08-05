@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
-import { BsFillForwardFill } from "react-icons/bs";
-import { fetchNews } from "../redux/news/newsSlice";
-import { useSelector, useDispatch } from "react-redux";
-import newsImage from "../assets/world2-39.png";
-import { Image } from "react-bootstrap";
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { BsFillForwardFill } from 'react-icons/bs';
+import { useSelector, useDispatch } from 'react-redux';
+import { Image } from 'react-bootstrap';
+import { fetchNews } from '../redux/news/newsSlice';
+import newsImage from '../assets/world2-39.png';
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -15,7 +15,7 @@ const Home = () => {
   }, [dispatch]);
 
   return (
-    <div className="py-3">
+    <div className="py-5" style={{ height: '100%' }}>
       {isLoading ? (
         <p>Loading...</p>
       ) : (
@@ -31,7 +31,7 @@ const Home = () => {
                     className="img-fluid w-50"
                   />
                   <Link state={item} to={`/${item.sectionName}`}>
-                    <BsFillForwardFill className="fs-2 text-white"/>
+                    <BsFillForwardFill className="fs-2 text-white" />
                   </Link>
                 </div>
                 <h2 className="text-start">

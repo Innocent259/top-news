@@ -1,9 +1,9 @@
-import "./App.css";
-import Navigation from "./components/Navigation";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Introduction from "./components/Introduction";
-import Home from "./components/Home";
-import FullDetails from "./components/FullDetails";
+import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import Introduction from './components/Introduction';
+import Home from './components/Home';
+import FullDetails from './components/FullDetails';
 
 function App() {
   return (

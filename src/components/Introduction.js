@@ -1,13 +1,11 @@
-import React from 'react'
-import NewsLogo from '../assets/news logo.png'
-import { Image } from 'react-bootstrap'
+import React from 'react';
+import { Image } from 'react-bootstrap';
+import NewsLogo from '../assets/news logo.png';
 
-const Introduction = () => {
-  return (
-    <div>
-       <Image src={NewsLogo} alt="news Logo" className="img-fluid" />
-    </div>
-  )
-}
+const Introduction = () => (
+  <div>
+    <Image src={NewsLogo} alt="news Logo" className="img-fluid" />
+  </div>
+);
 
-export default Introduction
+export default Introduction;
