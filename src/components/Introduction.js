@@ -4,7 +4,7 @@ import NewsLogo from '../assets/news logo.png';
 
 const Introduction = () => (
   <div>
-    <Image src={NewsLogo} alt="news Logo" className="img-fluid" />
+    <Image src={NewsLogo} alt="news Logo" className="img-fluid w-50 h-30" />
   </div>
 );
 
