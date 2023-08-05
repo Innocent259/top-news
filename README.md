@@ -15,7 +15,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
+  <!-- - [🚀 Live Demo ](#-live-demo-) -->
   - [Presentation ](#-presentation-)
   - [💻 Getting Started ](#-getting-started-)
     - [Install](#install)
@@ -56,11 +56,11 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
 <a href="https://quiet-buttercream-e947d3.netlify.app/">Live demo</a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ## Presentation <a name="presentation"></a>
 
