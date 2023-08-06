@@ -50,7 +50,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Fetch news data**
-- **Filter the news in the Home page**
+- **Filter the news on the Home page**
 - **Display news details in full details component**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -58,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href="https://quiet-buttercream-e947d3.netlify.app/">Live demo</a
+<a href="https://mob-news.onrender.com/">Live demo</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -75,7 +75,7 @@
 
 > In order to start with this project do as follows:
 
-To get get a local copy up and running, you can follow these simple steps:
+To get a local copy up and running, you can follow these simple steps:
 
 ### Install
 
